@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import Topbar from "@/components/shared/Topbar";
 import Bottombar from "@/components/shared/Bottombar";
 import LeftSidebar from "@/components/shared/LeftSidebar";
@@ -15,7 +14,7 @@ const RootLayout = () => {
       </section>
 
       <Bottombar />
-      <SpeedInsights />
+      
     </div>
     
   );
